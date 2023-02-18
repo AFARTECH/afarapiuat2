@@ -9,7 +9,6 @@ namespace MileDALibrary.Models
     public class GenderDetails
     {
         public int? Settings_id { get; set; }
-
         public string? Settings_name { get; set; }
 
         public string? Settings_value { get; set; }
