@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "storage1": {
+      "ignored": "true",
+      "type": "storage",
+      "connectionId": "BlobConfig:BlobConnection"
+    },
+    "mssql1": {
+      "secretStore": "LocalSecretsFile",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/afardev-sqldb/databases/AFAR_DB",
+      "type": "mssql.azure",
+      "connectionId": "afardevstorage"
+    },
+    "mssql2": {
+      "secretStore": "LocalSecretsFile",
+      "type": "mssql.local",
+      "connectionId": "DBSettings:ConnectionString",
+      "dynamicId": null
+    },
+    "storage2": {
+      "secretStore": "LocalSecretsFile",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Storage/storageAccounts/afardevstorage",
+      "type": "storage.azure",
+      "connectionId": "afardevstorage:blob"
+    }
+  }
+}
