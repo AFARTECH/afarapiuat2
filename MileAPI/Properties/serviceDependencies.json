@@ -2,7 +2,7 @@
   "dependencies": {
     "mssql1": {
       "type": "mssql",
-      "connectionId": "afardevstorage"
+      "connectionId": "afaruatstorage"
     },
     "mssql2": {
       "type": "mssql",
@@ -11,7 +11,7 @@
     },
     "storage2": {
       "type": "storage",
-      "connectionId": "afardevstorage:blob"
+      "connectionId": "afaruatstorage:blob"
     }
   }
 }
