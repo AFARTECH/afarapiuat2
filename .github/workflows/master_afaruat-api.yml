@@ -53,5 +53,5 @@ jobs:
         with:
           app-name: 'afaruat-api'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_1EF1A9FB0DEC42BEB6B1F2688EE6E1EF }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_0E0D2BAE0A764C6C98DFA73E52E618E5 }}
           package: .
