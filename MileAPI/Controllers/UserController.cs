@@ -15,7 +15,6 @@ namespace MileAPI.Controllers
 {
     [ApiController]
     [Route("api")]
-
     public class UserController : ControllerBase
     {
         private readonly IUserService _userService;
